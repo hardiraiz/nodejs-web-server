@@ -1,0 +1,16 @@
+{
+  "name": "learn-node",
+  "version": "1.0.0",
+  "description": "project for learn basic nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start-dev": "SET NODE_ENV=development && node server.js",
+    "start": "SET NODE_ENV=production && node server.js"
+  },
+  "author": "hardi",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
